@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>LoadBar</title>
+		<link rel="stylesheet" href="css/estilos.css" type="text/css" charset="utf-8">
+		<script type="text/javascript" charset="utf-8" src="js/jQuery.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.loadbar.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="w-img">
+				<img id="gatos" src="http://lorempixel.com/800/600/cats">
+			</div>
+			<div class="w-img">
+				<img id="gatos" src="http://lorempixel.com/800/600/city">
+			</div>
+			<div class="w-img">
+				<img id="gatos" src="http://lorempixel.com/800/600/people">
+			</div>
+			<div class="w-img">
+				<img id="gatos" src="http://lorempixel.com/800/600/food">
+			</div>
+		</div>
+		<script>
+		$(document).on('ready',function(){
+			$('body').loadBar();
+		});
+	</script>
+	</body>
+</html>
